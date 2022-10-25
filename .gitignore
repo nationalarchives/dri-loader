@@ -2,6 +2,6 @@ target
 /.idea
 /.idea_modules
 /.classpath
-/.project
+/.project/target
 /.settings
 /.bsp
