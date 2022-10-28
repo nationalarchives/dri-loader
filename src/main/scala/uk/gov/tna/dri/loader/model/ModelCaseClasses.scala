@@ -5,4 +5,7 @@ object ModelCaseClasses {
   case class SIPDownloadAvailable( `sip-download-available`:SIPDowloadAvailableParams)
   case class DRISIPDownloadedMessage (parameters:SIPDownloadAvailable)
 
+  case class TransferMetadata(series:String, batch:String, transferringBody:String,
+                              closureSchema:String, metadataSchema:String)
+
 }
